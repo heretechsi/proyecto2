@@ -54,7 +54,7 @@ if ($result->num_rows > 0) {
         file_put_contents($rutaArchivoLocal, $documentoPDF);
 
         // Definir la URL pública para el bot
-        $pdfUrl = "http://192.168.1.134/pdfcbr3/" . $nombreArchivoTemporal;
+        $pdfUrl = "http://192.168.1.134/pdf-wp/" . $nombreArchivoTemporal;
 
         // Definir el mensaje personalizado
         $mensaje = "Cordial saludo estimado(a) " . $documentoNombre . ", le estamos enviando el documento solicitado a través de la Plataforma Web del Conservador de Bienes Raíces.";
