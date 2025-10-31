@@ -27,7 +27,6 @@ if ($numero && $foja) {
         $stmt->bind_result($documentoPDF);
         $stmt->fetch();
         
-        // **NUEVO CÓDIGO**
         // Definimos el nombre de archivo que la API espera
         $nombreArchivoFijo = "certificado-wp.pdf";
         
